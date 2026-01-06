@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+		<RootNamespace>PDF_Vorschau</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- PdfiumViewer: nimm hier ruhig 2.13.0, wenn das schon installiert ist -->
+		<PackageReference Include="PDFium.forms.x64.v8-xfa" Version="4522.0.6" />
+		<PackageReference Include="PDFium.x64" Version="4648.0.0" />
+		<PackageReference Include="PdfiumViewer" Version="2.13.0" />
+		<PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
+		<PackageReference Include="System.Drawing.Common" Version="10.0.0" />
+	</ItemGroup>
+</Project>
