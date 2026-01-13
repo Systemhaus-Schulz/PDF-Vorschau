@@ -63,8 +63,7 @@ Falls Windows **Zugriff verweigert** meldet, ist die Datei in einem anderen Prog
 
 ## 📦 Installation
 
-Portabel:  
-Kompilieren → EXE starten → fertig.
+PDF-Vorschau-Setup.exe ausführen
 
 ---
 
@@ -72,4 +71,4 @@ Kompilieren → EXE starten → fertig.
 
 Systemhaus Schulz  
 https://www.systemhaus-schulz.de  
-kontakt@systemhaus-schulz.de
+info@systemhaus-schulz.de
